@@ -67,21 +67,6 @@ game *newgame();
 
 
 int main(int argc, char *argv[]) {
-
- if(argc > 2 ) {
-	errno = EINVAL;
-	perror("bad arguments\n");
-	return errno;
- }
-
- if( strcmp(argv[1], "-h") == 0) {
-
-	printf("GENERAL INSTRUCTIONS :\n Use your keypad to play the game.\n The up key to move up through the grid, down key to move down, right and left keys to move right and left repectively.\n Enter the key f to flag the square and press enter to uncover your square\n");
-
-	printf("RULES :\n1. Uncover a mine, and the game ends.\n2. Uncover an empty square, and you keep playing.\n3. Uncover a number, and it tells you how many mines lay hidden in the eight surrounding squares—information you use to deduce which nearby squares are safe to click.\n");
-	
-	printf("HERE WE GO!\n");
- }
   
  initscr();
  noecho();			
