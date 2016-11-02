@@ -1,3 +1,7 @@
+MINESWEEPER GAME
+Pooja Pol
+111503052
+
 GENERAL INSTRUCTIONS : 
 Use your keypad to play the game. 
 1. The up key to move up through the grid, down key to move down, right and left keys to move right and left repectively.
